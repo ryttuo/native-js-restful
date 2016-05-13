@@ -1,5 +1,7 @@
 /* 
-User Class Object with contructor and methods needed
+* User Class Object with contructor and methods needed
+* working with prototype
+* is the main Class for user list and user profiles modules
 */
 var User = (function () {
     

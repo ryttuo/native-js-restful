@@ -1,3 +1,7 @@
+/*
+* Module and actions to work with user list
+*
+*/
 var UserList = {
    
     init: function() {

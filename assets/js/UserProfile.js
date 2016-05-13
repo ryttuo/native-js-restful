@@ -1,3 +1,7 @@
+/*
+* UserProfile module for user details view with all actions
+*
+*/
 var UserProfile = {
     
     init: function() {
