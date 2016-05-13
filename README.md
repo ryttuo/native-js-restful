@@ -3,7 +3,7 @@
 This is a example how to use native javascript and show user list from a restful API,
 is only to get data NOT to send updates to the API.
 
-NO libraires, no frameworks is pure javascript
+NO libraries, no frameworks is pure javascript
 
 The basic idea is get users from http://jsonplaceholder.typicode.com/users and then get
 user post from "http://jsonplaceholder.typicode.com/posts"
