@@ -11,7 +11,7 @@ var User = (function () {
         this.posts = 0;
         this.data = {};
         this.postsData = [];
-    }
+    };
 
     User.prototype.getName = function() {
         return this.name;
@@ -28,13 +28,13 @@ var User = (function () {
             this.postsData = posts;
         }
         this.posts = this.postsData.length;
-    }
+    };
     
     User.prototype.addData = function(data) {
         this.name = data.name;
         this.userId = data.id;
         this.data = data;
-    }
+    };
     
     User.prototype.getPostData = function() {
         
@@ -55,7 +55,7 @@ var User = (function () {
         this.postsData = posts;
         this.posts = posts.length;
         
-    }
+    };
     
     return User;
 }());

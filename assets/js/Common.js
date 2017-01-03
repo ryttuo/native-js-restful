@@ -1,9 +1,9 @@
 /*
-*Common module with common settings to use on both Main modules
+*Common Object with common settings to use on both Main modules
 */
 var Common = {
     init: {
-        
+
     },
     settings : {
         USERURL:  "http://jsonplaceholder.typicode.com/users",
@@ -12,7 +12,7 @@ var Common = {
         tmp: ""
     },
     getRestfulData: function (url, cb) {
-        
+
         var xhr = new XMLHttpRequest();
         xhr.open("GET", url, true);
         xhr.onload = function(e) {
